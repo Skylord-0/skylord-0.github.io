@@ -1,0 +1,155 @@
+<!--@skylord first of charlie game in history of sololearn-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>charlie game ❌❌</title>
+    </head>
+    <body>
+       <iframe src="https://en.m.wikipedia.org/wiki/Charlie_Charlie_challenge"></iframe>
+<br />
+<br />
+<br />
+<br />
+        <div id="a">
+            <div id="a1">YES</div>
+            <div id="b2">NO</div>
+        </div>
+        <div id="b">
+            <div id="b1">NO</div>
+            <div id="a2">YES</div>
+        </div>
+        <hr id="l1">
+        <hr id="l2">
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+  <button id="demon" >view hint</button>
+      <div id="th">
+          <li>are you there?</li>
+          <li>charlie are you there?</li>
+          <li>charlie are you here?</li>
+          <li>charlie charlie are you here?</li>
+          <li>charlie charlie are tou there?</li>
+      </div>
+<br />
+<br />
+<p>charlie! charlie! are you here?</p>
+
+<script>
+    window.onload=function(){
+    
+    
+ document.getElementById("demon").onclick=function(){
+ var x = document.getElementById("th")
+if(x.style.display==="block"){x.style.display="none"}
+else{x.style.display="block"}
+          }
+          
+        var name = prompt("whats your name dear?");
+        var country =prompt("ur country name")
+        var asn = prompt("Hi "+name+"!"+" "+"do you really wanna play this scary game?");
+        var qus = prompt("say the game slag");
+        var pen = document.getElementById("l1");
+        var there = "there"
+        var here = "here"
+switch (qus) {
+case "charlie charlie are you here?":
+  pen.style.webkitTransform = 'rotate(50deg)';
+  pen.style.MozTransform = 'rotate(50deg)';
+  pen.style.msTransform = 'rotate(50deg)';
+  pen.style.OTransform = 'rotate(50deg)';
+  pen.style.transform = 'rotate(50deg)';
+ break ;
+ case "charlie charlie are you there?":     
+  pen.style.webkitTransform = 'rotate(50deg)';
+  pen.style.MozTransform = 'rotate(50deg)';
+  pen.style.msTransform = 'rotate(50deg)';
+  pen.style.OTransform = 'rotate(50deg)';
+  pen.style.transform = 'rotate(50deg)';
+ break ;
+case "charlie are you there?":
+  pen.style.webkitTransform = 'rotate(50deg)';
+  pen.style.MozTransform = 'rotate(50deg)';
+  pen.style.msTransform = 'rotate(50deg)';
+  pen.style.OTransform = 'rotate(50deg)';
+  pen.style.transform = 'rotate(50deg)';
+ break ;
+case "are you here?":
+  pen.style.webkitTransform = 'rotate(50deg)';
+  pen.style.MozTransform = 'rotate(50deg)';
+  pen.style.msTransform = 'rotate(50deg)';
+  pen.style.OTransform = 'rotate(50deg)';
+  pen.style.transform = 'rotate(50deg)';
+ break ;
+case "charlie are you here?":
+  pen.style.webkitTransform = 'rotate(50deg)';
+  pen.style.MozTransform = 'rotate(50deg)';
+  pen.style.msTransform = 'rotate(50deg)';
+  pen.style.OTransform = 'rotate(50deg)';
+  pen.style.transform = 'rotate(50deg)';
+ break ;
+default:
+  pen.style.webkitTransform = 'rotate(90deg)';
+  pen.style.MozTransform = 'rotate(90deg)';
+  pen.style.msTransform = 'rotate(90deg)';
+  pen.style.OTransform = 'rotate(90deg)';
+  pen.style.transform = 'rotate(90deg)';
+  alert("maybe he is not in "+country+" "+"🤷🤷🤷")
+}
+
+    
+                
+
+}
+
+</script>
+<style>
+    body {
+    background-color: grey;
+}
+#a1, #a2, #b1, #b2{
+    border:30px solid black;
+    padding:0px;
+    width:120px;
+    height:90px;
+    text-align:center;
+    font-size:80px;
+    background-color:white;
+    margin-left:-3px;
+}
+#b1, #b2{
+   color:red;
+}
+#a1, #a2{
+    color:green;
+}
+#th{
+    display:none;
+}
+#b{
+    margin-left:170px;
+    margin-top:-300px;
+}
+hr{
+    border:0px solid gold;
+    background-color:gold;
+    width:300px;
+    height:10px;
+}
+#l1{
+    position:relative ;
+    transform:rotate(90deg);
+    margin-top:-155px;
+}
+#l2{
+    margin-top:-15px;
+}
+</style>
+    </body>
+</html>
