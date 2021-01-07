@@ -691,6 +691,13 @@ h4{
 <iframe src="https://dl.dropbox.com/s/c7dtfo4id9nb38p/Happy_Birthday_song%28128k%29?" allow="autoplay" style="display:none" id="iframeAudio">
 </iframe> 
     <script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
     Swal.fire('I don’t much to say than wishing you Happy Birthday!☺️')
         </script>
 </html>
