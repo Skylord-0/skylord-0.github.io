@@ -677,7 +677,7 @@ h4{
        </br>   
        </br>  
           
-    <b onclick="play()">May God shower you with blessings today and always. Happy birthday wishes for you! <span id="demon" style="font-size:60px;">CLICK ME</span>
+    <b onclick="play()">May God shower you with blessings today and always. Happy birthday wishes for you! <span onclick="card" id="demon" style="font-size:60px; color:green;">CLICK ME</span>
      </b><br /><br />
      <i onclick="play()">May today be as special and wonderful as you are my friend. Happy birthday!</i>
      <p onclick="play()">You may be getting older but at least you still look great! Happy birthday best friend!
@@ -696,6 +696,9 @@ h4{
         var audio = document.getElementById("audio");
         audio.play();
       }
+function  card(){
+        document.getElementById("demon").innerHTML=(" ")
+          }
  function a(){
        var elem = document.getElementById("demon").innerHTML=("REFRESH PAGE")
        document.getElementById("demon").style.color="red"
