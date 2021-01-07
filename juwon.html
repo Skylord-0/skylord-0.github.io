@@ -697,10 +697,11 @@ h4{
         audio.play();
       }
  function a(){
-        document.getElementById("demon").innerHTML=("REFRESH PAGE")
+       var elem = document.getElementById("demon").innerHTML=("REFRESH PAGE")
+       elem.style.color="green";
           }
           
-          setInterval(a, 2000);
+          setInterval(a, 65000);
           
           clearInterval(a);
     Swal.fire('I don’t much to say than wishing you Happy Birthday!☺️')
